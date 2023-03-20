@@ -18,7 +18,7 @@ a {
     text-decoration: none;
     color: white;
 }
-a:hover {
+.header a:hover {
     color: #b08a5b;
 }
 
@@ -30,7 +30,7 @@ body {
     margin: 0;
 }
 
-.top {
+.top, .sub-top {
     flex-direction: column;
     background-color: #1F2937;
 
@@ -77,9 +77,12 @@ body {
     font-family: tboi-font;
     font-size: 48px;
     max-width: 400px;
+
+    margin-bottom: 0px;
 }
 .left-paragraph {
     max-width: 500px;
+    font-size: 24px;
 }
 
 .right-image {
@@ -89,4 +92,21 @@ body {
 
 .right-image-container {
     flex-wrap: wrap;
+}
+
+.sub-top-button {
+    background-color: #b08a5b;
+    max-width: fit-content;
+    padding: 12px 40px;
+    border-radius: 10px;
+    border: 2px solid #b08a5b;
+
+    font-size: 24px;
+}
+
+.sub-top-button:hover {
+    color:#b08a5b;
+    background-color: #1F2937;
+
+    border: 2px solid #b08a5b;
 }
