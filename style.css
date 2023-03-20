@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "tboi-font";
+    src: url(./font/upheavtt.ttf)
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+    align-self: center;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #b08a5b;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+
+    color: white;
+    padding: 15px 230px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-main {
+    font-family: tboi-font;
+    font-size: 48px;
+    margin: 0;
+}
+.left-side {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.tboi-icon {
+    max-height: 65px;
+    width: auto;
+}
+
+.right-side {
+    display: flex;
+}
