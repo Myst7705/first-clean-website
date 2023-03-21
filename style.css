@@ -3,7 +3,7 @@
     src: url(./font/upheavtt.ttf)
 }
 
-ul, body, .top, .header, .left-side, .right-side, .main, .left-text, .right-image-container {
+ul, body, .top, .header, .left-side, .right-side, .main, .left-text, .right-image-container, .middle, .cards, .card, .sub-middle, .bottom, .banner, .banner-left {
     display: flex;
 }
 
@@ -30,7 +30,7 @@ body {
     margin: 0;
 }
 
-.top, .sub-top {
+.top, .sub-top, .middle {
     flex-direction: column;
     background-color: #1F2937;
 
@@ -109,4 +109,129 @@ body {
     background-color: #1F2937;
 
     border: 2px solid #b08a5b;
+}
+
+.middle {
+    background-color: white;
+    color: black;
+
+    align-items: center;
+}
+
+.middle-title {
+    font-size: 32px;
+    color:#b0735b;
+    font-family: tboi-font;
+}
+
+.cards {
+    gap: 30px;
+}
+
+.card {
+    flex-direction: column;
+    
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #1F2937;
+    border-radius: 10px;
+}
+
+.card-description {
+    width: 180px;
+    text-align: center;
+    font-size: 18px;
+
+    margin: 10px;
+}
+
+.card-real-image {
+    border-radius: 4px;
+}
+
+.sub-middle {
+    flex-direction: column;
+    background-color: #E5E7EB;
+
+    padding: 15px 30%;
+    align-items: center;
+}
+
+.quotation {
+    font-size: 36px;
+    font-style: italic;
+
+    max-width: 70% ;
+    margin-top: 112px;
+    margin-bottom: 15px;
+}
+
+.quotation-author {
+    font-size: 24px;
+    font-weight: bold;
+
+    align-self: flex-end;
+    margin-bottom: 112px;
+}
+
+.sub-middle p {
+    margin: 0px;
+    color: black;
+}
+
+.bottom {
+    justify-content: center;
+    margin: 0% 20%;
+    margin-bottom: 112px;
+}
+
+.banner {
+    background-color: #3b82f6 ;
+    margin-top: 112px;
+
+    width: 70%;
+
+    padding: 2% 4%;
+    border-radius: 10px;
+
+    justify-content: space-between;
+}
+
+.banner-left {
+    flex-direction: column;
+}
+.banner-left-title, .banner-left-text {
+    color: white;
+}
+
+.banner-left-title {
+    font-family: tboi-font;
+    font-size: 30px;
+
+    margin-bottom: 0px;
+}
+
+.banner-left-text {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.banner-right-button {
+    margin: 0;
+}
+
+.banner-right-link  {
+    align-self: center ;
+    margin-right: 2%;
+
+    border: 2px solid white;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.banner-right-link:hover {
+    background-color: #b08a5b;
 }
