@@ -3,7 +3,7 @@
     src: url(./font/upheavtt.ttf)
 }
 
-ul, body, .top, .header, .left-side, .right-side, .main, .left-text, .right-image-container, .middle, .cards, .card, .sub-middle, .bottom, .banner, .banner-left {
+ul, body, .top, .header, .left-side, .right-side, .main, .left-text, .right-image-container, .middle, .cards, .card, .sub-middle, .bottom, .banner, .banner-left, .footer {
     display: flex;
 }
 
@@ -234,4 +234,20 @@ body {
 
 .banner-right-link:hover {
     background-color: #b08a5b;
+}
+
+.footer {
+    background-color:#1F2937;
+    padding: 10px 0;
+
+    justify-content: center;
+}
+
+.footer-watermark {
+    color: white;
+    font-size: 17px;
+}
+
+.footer-link:hover {
+    color:#b08a5b;
 }
